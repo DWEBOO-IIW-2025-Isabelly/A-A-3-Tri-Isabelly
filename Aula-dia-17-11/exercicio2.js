@@ -1,0 +1,7 @@
+console.log(90 > 10);             // Previsão: true  (90 é maior que 10)
+console.log(10 === '10');         // Previsão: false (tipos diferentes: number vs string)
+console.log(10 !== 10);           // Previsão: false (os valores e tipos são iguais)
+console.log('ifpr' === 'IFPR');   // Previsão: false (comparação diferencia maiúsculas de minúsculas)
+console.log(5 >= 5 && 3 > 4);     // Previsão: false (true && false resulta em false)
+console.log(5 >= 5 || 3 > 4);     // Previsão: true  (true || false resulta em true)
+console.log(!(5 >= 5));           // Previsão: false (negação de trueresulta em false)
